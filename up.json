@@ -1,0 +1,29 @@
+{
+  "name": "guides",
+  "profile": "apex",
+  "regions": [
+    "ap-northeast-1"
+  ],
+  "type": "static",
+  "static": {
+    "dir": "public"
+  },
+  "stages": {
+    "staging": {
+      "static": {
+        "prefix": "staging/"
+      },
+      "hooks":{
+        "build": "hugo -b /staging/"
+      }
+    },
+    "production": {
+      "static": {
+        "prefix": "production/"
+      },
+      "hooks":{
+        "build": "hugo -b /production/"
+      }
+    }
+  }
+}
