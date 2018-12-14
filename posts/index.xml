@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Guides &amp; Tutorials</title>
-    <link>/posts/</link>
+    <link>df1228.github.io/guides/posts/</link>
     <description>Recent content in Posts on Guides &amp; Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 29 Nov 2017 21:42:32 +0800</lastBuildDate>
     
-        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="df1228.github.io/guides/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Deploy hugo site to aws using apex up</title>
-      <link>/posts/deploy-hugo-with-apex-up/</link>
+      <link>df1228.github.io/guides/posts/deploy-hugo-with-apex-up/</link>
       <pubDate>Wed, 29 Nov 2017 21:42:32 +0800</pubDate>
       
-      <guid>/posts/deploy-hugo-with-apex-up/</guid>
+      <guid>df1228.github.io/guides/posts/deploy-hugo-with-apex-up/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/apex/up&#34;&gt;apex up&lt;/a&gt; is a great tool made by tj.&lt;/p&gt;
@@ -98,10 +98,10 @@
     
     <item>
       <title>Host static web site with AWS S3</title>
-      <link>/posts/host-static-site-with-aws-s3/</link>
+      <link>df1228.github.io/guides/posts/host-static-site-with-aws-s3/</link>
       <pubDate>Wed, 21 Jun 2017 20:10:12 +0900</pubDate>
       
-      <guid>/posts/host-static-site-with-aws-s3/</guid>
+      <guid>df1228.github.io/guides/posts/host-static-site-with-aws-s3/</guid>
       <description>
 
 &lt;h2 id=&#34;1-create-a-bucket&#34;&gt;1. Create a bucket&lt;/h2&gt;
@@ -130,10 +130,10 @@
     
     <item>
       <title>Deploy hugo site to now.sh</title>
-      <link>/posts/deploy-hugo-to-now/</link>
+      <link>df1228.github.io/guides/posts/deploy-hugo-to-now/</link>
       <pubDate>Sat, 18 Mar 2017 18:20:12 +0800</pubDate>
       
-      <guid>/posts/deploy-hugo-to-now/</guid>
+      <guid>df1228.github.io/guides/posts/deploy-hugo-to-now/</guid>
       <description>&lt;p&gt;just run &lt;code&gt;now&lt;/code&gt; in static website root folder.&lt;/p&gt;
 
 &lt;p&gt;if you&amp;rsquo;re using a static site generator like &lt;a href=&#34;https://gohugo.io&#34;&gt;hugo&lt;/a&gt;.&lt;/p&gt;
@@ -146,10 +146,10 @@
     
     <item>
       <title>Host static contents with Github Pages</title>
-      <link>/posts/host-static-contents-on-github-pages/</link>
+      <link>df1228.github.io/guides/posts/host-static-contents-on-github-pages/</link>
       <pubDate>Fri, 21 Oct 2016 20:10:12 +0900</pubDate>
       
-      <guid>/posts/host-static-contents-on-github-pages/</guid>
+      <guid>df1228.github.io/guides/posts/host-static-contents-on-github-pages/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://pages.github.com/&#34;&gt;Github Pages&lt;/a&gt;  is a static site hosting service designed to host your personal, organization, or project pages directly from a GitHub repository.&lt;/p&gt;
 
 &lt;p&gt;However from repository settings / Github Pages, only master, master/doc option can be selected.&lt;/p&gt;
@@ -169,10 +169,10 @@ git commit -am &amp;#34;create index.html&amp;#34;&lt;/pre&gt;&lt;/div&gt;
     
     <item>
       <title>Public dns servers</title>
-      <link>/posts/public-dns-servers/</link>
+      <link>df1228.github.io/guides/posts/public-dns-servers/</link>
       <pubDate>Wed, 18 Mar 2015 18:20:12 +0800</pubDate>
       
-      <guid>/posts/public-dns-servers/</guid>
+      <guid>df1228.github.io/guides/posts/public-dns-servers/</guid>
       <description>&lt;p&gt;Cloudflare public DNS&lt;/p&gt;
 
 &lt;p&gt;1.1.1.1&lt;/p&gt;
@@ -224,10 +224,10 @@ git commit -am &amp;#34;create index.html&amp;#34;&lt;/pre&gt;&lt;/div&gt;
     
     <item>
       <title>Hello</title>
-      <link>/posts/hello/</link>
+      <link>df1228.github.io/guides/posts/hello/</link>
       <pubDate>Thu, 29 Nov 2012 18:20:12 +0800</pubDate>
       
-      <guid>/posts/hello/</guid>
+      <guid>df1228.github.io/guides/posts/hello/</guid>
       <description>
 
 &lt;h1 id=&#34;hello-hugo&#34;&gt;Hello hugo&lt;/h1&gt;
