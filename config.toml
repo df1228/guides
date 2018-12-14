@@ -1,0 +1,14 @@
+# baseURL: http://something-fresh.org/
+baseURL = "/"
+languageCode = "en-us"
+title = "Guides & Tutorials"
+theme = "one"
+
+
+# Chroma Syntax Highlighting
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsStyle = "pygments"
+
+[params]
+    navigation = ["archives.md", "about.md"]
