@@ -3,63 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/df1228.github.io/guides/about/</loc>
+    <loc>/guides/about/</loc>
     <lastmod>2018-11-29T18:20:32+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/df1228.github.io/guides/posts/deploy-hugo-with-apex-up/</loc>
+    <loc>/guides/posts/deploy-hugo-with-apex-up/</loc>
     <lastmod>2017-11-29T21:42:32+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/df1228.github.io/guides/posts/host-static-site-with-aws-s3/</loc>
+    <loc>/guides/posts/host-static-site-with-aws-s3/</loc>
     <lastmod>2017-06-21T20:10:12+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/df1228.github.io/guides/posts/deploy-hugo-to-now/</loc>
+    <loc>/guides/posts/deploy-hugo-to-now/</loc>
     <lastmod>2017-03-18T18:20:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/df1228.github.io/guides/posts/host-static-contents-on-github-pages/</loc>
+    <loc>/guides/posts/host-static-contents-on-github-pages/</loc>
     <lastmod>2016-10-21T20:10:12+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/df1228.github.io/guides/posts/public-dns-servers/</loc>
+    <loc>/guides/posts/public-dns-servers/</loc>
     <lastmod>2015-03-18T18:20:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/df1228.github.io/guides/posts/hello/</loc>
+    <loc>/guides/posts/hello/</loc>
     <lastmod>2012-11-29T18:20:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/df1228.github.io/guides/archives/</loc>
+    <loc>/guides/archives/</loc>
   </url>
   
   <url>
-    <loc>/df1228.github.io/guides/categories/</loc>
+    <loc>/guides/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/df1228.github.io/guides/</loc>
+    <loc>/guides/</loc>
     <lastmod>2018-11-29T18:20:32+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/df1228.github.io/guides/posts/</loc>
+    <loc>/guides/posts/</loc>
     <lastmod>2017-11-29T21:42:32+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/df1228.github.io/guides/tags/</loc>
+    <loc>/guides/tags/</loc>
     <priority>0</priority>
   </url>
   
