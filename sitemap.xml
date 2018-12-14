@@ -3,63 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/guides/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2018-11-29T18:20:32+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/guides/posts/deploy-hugo-with-apex-up/</loc>
+    <loc>/posts/deploy-hugo-with-apex-up/</loc>
     <lastmod>2017-11-29T21:42:32+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/guides/posts/host-static-site-with-aws-s3/</loc>
+    <loc>/posts/host-static-site-with-aws-s3/</loc>
     <lastmod>2017-06-21T20:10:12+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/guides/posts/deploy-hugo-to-now/</loc>
+    <loc>/posts/deploy-hugo-to-now/</loc>
     <lastmod>2017-03-18T18:20:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/guides/posts/host-static-contents-on-github-pages/</loc>
+    <loc>/posts/host-static-contents-on-github-pages/</loc>
     <lastmod>2016-10-21T20:10:12+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/guides/posts/public-dns-servers/</loc>
+    <loc>/posts/public-dns-servers/</loc>
     <lastmod>2015-03-18T18:20:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/guides/posts/hello/</loc>
+    <loc>/posts/hello/</loc>
     <lastmod>2012-11-29T18:20:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/guides/archives/</loc>
+    <loc>/archives/</loc>
   </url>
   
   <url>
-    <loc>/guides/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/guides/</loc>
+    <loc>/</loc>
     <lastmod>2018-11-29T18:20:32+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/guides/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2017-11-29T21:42:32+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/guides/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
