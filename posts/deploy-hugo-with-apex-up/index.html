@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Deploy hugo site to aws using apex up</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="Deploy hugo site to aws using apex up">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="og:title" content="Deploy hugo site to aws using apex up">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="/posts/deploy-hugo-with-apex-up/">
+	<meta name="og:site_name" content="Deploy hugo site to aws using apex up">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	
+	
+</head>
+
+<body>
+
+<header>
+	
+	<a href="/" style="float: left;color:#ff3b30;">Guides &amp; Tutorials</a>
+	
+	&nbsp;&nbsp;<a href="/archives/" style="color:#777;">Archives</a>&nbsp;&nbsp;<a href="/about/" style="color:#777;">About</a>
+	
+	<a href="/posts/index.xml" style="color:#777;float: right;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+</header>
+
+
+<div class="content">
+  <h1>Deploy hugo site to aws using apex up</h1>
+  <aside></aside>
+  <p>
+
+<p><a href="https://github.com/apex/up">apex up</a> is a great tool made by tj.</p>
+
+<p>to know what it is capable of, you can read <a href="https://medium.com/@tjholowaychuk/introducing-apex-800824ffaa70">introducing apex up</a> and <a href="https://github.com/apex/up">github.com/apex/up</a>.</p>
+
+<p>here is my experience for deploy hugo site with apex up.</p>
+
+<h2 id="1-first-make-sure-you-configure-aws-iam-right">1. first make sure you configure aws IAM right.</h2>
+
+<p>create a <a href="https://aws.amazon.com/iam/">IAM</a> user with appropriate permission in aws iam console.</p>
+
+<p>make sure <a href="https://github.com/apex/up-examples/tree/master/oss/static-basic">static-basic</a> demo can be deployed just using <code>up</code>. run <code>up url -o</code> to check your deploy.</p>
+
+<p>you can use <code>up stack delete</code> to destroy the entire stack.</p>
+
+<h2 id="2-create-a-up-json-in-hugo-site-root-folder">2. create a up.json in hugo site root folder.</h2>
+<div class="highlight"><pre style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+  <span style="color:#008000;font-weight:bold">&#34;name&#34;</span>: <span style="color:#ba2121">&#34;app&#34;</span>,
+  <span style="color:#008000;font-weight:bold">&#34;profile&#34;</span>: <span style="color:#ba2121">&#34;apex&#34;</span>,
+  <span style="color:#008000;font-weight:bold">&#34;regions&#34;</span>: [
+    <span style="color:#ba2121">&#34;ap-northeast-1&#34;</span>
+  ],
+  <span style="color:#008000;font-weight:bold">&#34;type&#34;</span>: <span style="color:#ba2121">&#34;static&#34;</span>,
+  <span style="color:#008000;font-weight:bold">&#34;static&#34;</span>: {
+    <span style="color:#008000;font-weight:bold">&#34;dir&#34;</span>: <span style="color:#ba2121">&#34;public&#34;</span>
+  },
+  <span style="color:#008000;font-weight:bold">&#34;stages&#34;</span>: {
+	  <span style="color:#008000;font-weight:bold">&#34;staging&#34;</span>: {
+      <span style="color:#008000;font-weight:bold">&#34;static&#34;</span>: {
+        <span style="color:#008000;font-weight:bold">&#34;prefix&#34;</span>: <span style="color:#ba2121">&#34;staging/&#34;</span>
+      },
+      <span style="color:#008000;font-weight:bold">&#34;hooks&#34;</span>:{
+        <span style="color:#008000;font-weight:bold">&#34;build&#34;</span>: <span style="color:#ba2121">&#34;hugo -b /staging/&#34;</span>
+      }
+    },
+    <span style="color:#008000;font-weight:bold">&#34;production&#34;</span>: {
+      <span style="color:#008000;font-weight:bold">&#34;static&#34;</span>: {
+        <span style="color:#008000;font-weight:bold">&#34;prefix&#34;</span>: <span style="color:#ba2121">&#34;production/&#34;</span>
+      },
+      <span style="color:#008000;font-weight:bold">&#34;hooks&#34;</span>:{
+        <span style="color:#008000;font-weight:bold">&#34;build&#34;</span>: <span style="color:#ba2121">&#34;hugo -b /production/&#34;</span>
+      }
+    }
+  }
+}</code></pre></div><div class="highlight"><pre style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4"># .gitignore
+*
+!public/**</pre></div>
+<p>details about config as below:</p>
+
+<ul>
+<li><p>profile is the name in your ~/.aws/credetails config in first step.</p></li>
+
+<li><p>region is the region you want to deploy</p></li>
+
+<li><p>type static specifiy up static server to serve it.</p></li>
+
+<li><p>dir specify folder you want to deploy. by default the current directory (.) is served, however you can change this using the dir setting.</p></li>
+
+<li><p>hooks overwrites up default build task. <code>up config</code> validate and output configuration with defaults applied.</p></li>
+
+<li><p>stages config stage overrides.</p></li>
+</ul>
+
+<p>just change the name for your site when you deploy. maybe profile and regions.</p>
+
+<p>links:</p>
+
+<p><a href="https://up.docs.apex.sh/#configuration.static_file_serving">https://up.docs.apex.sh/#configuration.static_file_serving</a><br />
+<a href="https://up.docs.apex.sh/#configuration.static_file_serving.dynamic_apps">https://up.docs.apex.sh/#configuration.static_file_serving.dynamic_apps</a><br />
+<a href="https://up.docs.apex.sh/#configuration.stage_overrides">https://up.docs.apex.sh/#configuration.stage_overrides</a><br />
+<a href="https://up.docs.apex.sh/#configuration.hook_scripts">https://up.docs.apex.sh/#configuration.hook_scripts</a><br />
+<a href="https://github.com/apex/up/tree/master/docs">https://github.com/apex/up/tree/master/docs</a><br />
+<a href="https://github.com/apex/up-examples">https://github.com/apex/up-examples</a><br />
+<a href="https://www.youtube.com/watch?v=1wnSNj-jmo4&amp;index=1&amp;list=PLbFkWVvnVLnRP-E87Tqe6nYVjOk6461o0">youtube for apex up video playlist</a>
+<a href="https://medium.freecodecamp.org/up-b3db1ca930ee">Up – deploy serverless apps in seconds</a></p>
+</p>
+</div>
+
+
+  <p>Written on Nov 29, 2017.</p>
+
+
+<footer>
+	<p>&copy; 2018 All rights reserved.</p>
+</footer>
+</body>
+</html>
