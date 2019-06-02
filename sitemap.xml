@@ -3,63 +3,68 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/guides/about/</loc>
+    <loc>/blog/posts/quickly-fill-colors-in-sketch/</loc>
+    <lastmod>2019-01-02T15:17:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/about/</loc>
     <lastmod>2018-11-29T18:20:32+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/guides/posts/deploy-hugo-with-apex-up/</loc>
+    <loc>/blog/posts/deploy-hugo-with-apex-up/</loc>
     <lastmod>2017-11-29T21:42:32+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/guides/posts/host-static-site-with-aws-s3/</loc>
+    <loc>/blog/posts/host-static-site-with-aws-s3/</loc>
     <lastmod>2017-06-21T20:10:12+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/guides/posts/deploy-hugo-to-now/</loc>
+    <loc>/blog/posts/deploy-hugo-to-now/</loc>
     <lastmod>2017-03-18T18:20:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/guides/posts/host-static-contents-on-github-pages/</loc>
+    <loc>/blog/posts/host-static-contents-on-github-pages/</loc>
     <lastmod>2016-10-21T20:10:12+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/guides/posts/public-dns-servers/</loc>
+    <loc>/blog/posts/public-dns-servers/</loc>
     <lastmod>2015-03-18T18:20:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/guides/posts/hello/</loc>
+    <loc>/blog/posts/hello/</loc>
     <lastmod>2012-11-29T18:20:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/guides/archives/</loc>
+    <loc>/blog/archives/</loc>
   </url>
   
   <url>
-    <loc>/guides/categories/</loc>
+    <loc>/blog/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/guides/</loc>
-    <lastmod>2018-11-29T18:20:32+08:00</lastmod>
+    <loc>/blog/</loc>
+    <lastmod>2019-01-02T15:17:14+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/guides/posts/</loc>
-    <lastmod>2017-11-29T21:42:32+08:00</lastmod>
+    <loc>/blog/posts/</loc>
+    <lastmod>2019-01-02T15:17:14+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/guides/tags/</loc>
+    <loc>/blog/tags/</loc>
     <priority>0</priority>
   </url>
   
