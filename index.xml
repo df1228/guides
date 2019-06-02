@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Guides &amp; Tutorials</title>
+    <title>Blog</title>
     <link>/blog/</link>
-    <description>Recent content on Guides &amp; Tutorials</description>
+    <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Jan 2019 15:17:14 +0800</lastBuildDate>
@@ -197,11 +197,13 @@ git commit -am &amp;#34;create index.html&amp;#34;&lt;/pre&gt;&lt;/div&gt;
       <pubDate>Wed, 18 Mar 2015 18:20:12 +0800</pubDate>
       
       <guid>/blog/posts/public-dns-servers/</guid>
-      <description>&lt;p&gt;Cloudflare public DNS&lt;/p&gt;
+      <description>
+
+&lt;h3 id=&#34;cloudflare-public-dns&#34;&gt;Cloudflare public DNS&lt;/h3&gt;
 
 &lt;p&gt;1.1.1.1&lt;/p&gt;
 
-&lt;p&gt;Verizon  DNS&lt;/p&gt;
+&lt;h3 id=&#34;verizon-dns&#34;&gt;Verizon  DNS&lt;/h3&gt;
 
 &lt;p&gt;4.2.2.1&lt;br /&gt;
   4.2.2.2&lt;br /&gt;
@@ -210,37 +212,41 @@ git commit -am &amp;#34;create index.html&amp;#34;&lt;/pre&gt;&lt;/div&gt;
   4.2.2.5&lt;br /&gt;
   4.2.2.6&lt;/p&gt;
 
-&lt;p&gt;Open DNS&lt;/p&gt;
+&lt;h3 id=&#34;open-dns&#34;&gt;Open DNS&lt;/h3&gt;
 
 &lt;p&gt;208.67.222.222&lt;br /&gt;
   208.67.220.220&lt;/p&gt;
 
-&lt;p&gt;Google DNS&lt;/p&gt;
+&lt;h3 id=&#34;google-dns&#34;&gt;Google DNS&lt;/h3&gt;
 
 &lt;p&gt;8.8.8.8&lt;br /&gt;
   8.8.4.4&lt;br /&gt;
   2001:4860:4860::8888&lt;br /&gt;
   2001:4860:4860::8844&lt;/p&gt;
 
-&lt;p&gt;v2ex DNS&lt;/p&gt;
+&lt;h3 id=&#34;ibm-dns&#34;&gt;IBM DNS&lt;/h3&gt;
+
+&lt;p&gt;9.9.9.9&lt;/p&gt;
+
+&lt;h3 id=&#34;v2ex-dns&#34;&gt;V2ex DNS&lt;/h3&gt;
 
 &lt;p&gt;178.79.131.110&lt;/p&gt;
 
-&lt;p&gt;114 DNS&lt;/p&gt;
+&lt;h3 id=&#34;114-dns&#34;&gt;114 DNS&lt;/h3&gt;
 
 &lt;p&gt;114.114.114.114
   114.114.115.115&lt;/p&gt;
 
-&lt;p&gt;DNSPod Public DNS+&lt;/p&gt;
+&lt;h3 id=&#34;dnspod-public-dns&#34;&gt;DNSPod Public DNS+&lt;/h3&gt;
 
 &lt;p&gt;119.29.29.29&lt;/p&gt;
 
-&lt;p&gt;AliDNS&lt;/p&gt;
+&lt;h3 id=&#34;alidns&#34;&gt;AliDNS&lt;/h3&gt;
 
 &lt;p&gt;223.5.5.5&lt;br /&gt;
   223.6.6.6&lt;/p&gt;
 
-&lt;p&gt;Baidu DNS&lt;/p&gt;
+&lt;h3 id=&#34;baidu-dns&#34;&gt;Baidu DNS&lt;/h3&gt;
 
 &lt;p&gt;180.76.76.76&lt;/p&gt;
 </description>
