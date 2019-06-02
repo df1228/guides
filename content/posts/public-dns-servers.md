@@ -3,11 +3,11 @@ title: "Public dns servers"
 date: 2015-03-18T18:20:12+08:00
 ---
 
-Cloudflare public DNS
+### Cloudflare public DNS
   
   1.1.1.1
 
-Verizon  DNS
+### Verizon  DNS
 
   4.2.2.1  
   4.2.2.2  
@@ -16,36 +16,40 @@ Verizon  DNS
   4.2.2.5  
   4.2.2.6  
 
-Open DNS
+### Open DNS
 
   208.67.222.222  
   208.67.220.220  
 
-Google DNS
+### Google DNS
 
   8.8.8.8  
   8.8.4.4  
   2001:4860:4860::8888  
   2001:4860:4860::8844  
 
-v2ex DNS
+### IBM DNS
+
+  9.9.9.9
+
+### V2ex DNS
   
   178.79.131.110
 
-114 DNS
+### 114 DNS
   
   114.114.114.114
   114.114.115.115
 
-DNSPod Public DNS+
+### DNSPod Public DNS+
   
   119.29.29.29
 
-AliDNS
+### AliDNS
   
   223.5.5.5  
   223.6.6.6  
 
-Baidu DNS
+### Baidu DNS
   
   180.76.76.76  
