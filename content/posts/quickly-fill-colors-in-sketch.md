@@ -1,5 +1,5 @@
 ---
-title: "quick fill a color in Sketch from sip"
+title: "Quick fill a color in Sketch from sip"
 date: 2019-01-02T15:17:14+08:00
 ---
 
