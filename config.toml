@@ -1,7 +1,7 @@
 # baseURL: http://something-fresh.org/
 baseURL = "/"
 languageCode = "en-us"
-title = "Guides & Tutorials"
+title = "Blog"
 theme = "one"
 
 
