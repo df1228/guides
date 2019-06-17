@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/posts/automatic-https-in-go/</loc>
+    <lastmod>2019-06-02T15:17:14+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/posts/quickly-fill-colors-in-sketch/</loc>
     <lastmod>2019-01-02T15:17:14+08:00</lastmod>
   </url>
@@ -10,6 +15,16 @@
   <url>
     <loc>/blog/about/</loc>
     <lastmod>2018-11-29T18:20:32+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/posts/bazel/</loc>
+    <lastmod>2017-11-29T21:42:32+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/posts/containerizing-your-app-not-vms/</loc>
+    <lastmod>2017-11-29T21:42:32+08:00</lastmod>
   </url>
   
   <url>
@@ -48,7 +63,7 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2019-01-02T15:17:14+08:00</lastmod>
+    <lastmod>2019-06-02T15:17:14+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -59,7 +74,7 @@
   
   <url>
     <loc>/blog/posts/</loc>
-    <lastmod>2019-01-02T15:17:14+08:00</lastmod>
+    <lastmod>2019-06-02T15:17:14+08:00</lastmod>
     <priority>0</priority>
   </url>
   

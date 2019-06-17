@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Automagical HTTPS with Docker and Go</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="Automagical HTTPS with Docker and Go">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="og:title" content="Automagical HTTPS with Docker and Go">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="/blog/posts/automatic-https-in-go/">
+	<meta name="og:site_name" content="Automagical HTTPS with Docker and Go">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="/blog/css/style.css">
+	
+	
+</head>
+
+<body>
+
+<header>
+	
+	<a href="/blog/" style="float: left;color:#ff3b30;">Blog</a>
+	
+	&nbsp;&nbsp;<a href="/blog/archives/" style="color:#777;">Archives</a>&nbsp;&nbsp;<a href="/blog/about/" style="color:#777;">About</a>
+	
+	<a href="/blog/posts/index.xml" style="color:#777;float: right;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+</header>
+
+
+<div class="content">
+  <h1>Automagical HTTPS with Docker and Go</h1>
+  <aside></aside>
+  <p>
+
+<p>HTTPS sites is pretty common nowadays.  and you don&rsquo;t want chrome to flag your site as not insecure in location bar, right?</p>
+
+<p>So if you need to serve your go application over HTTPS. A common way of quickly achieving this goal was by utilising <a href="https://letsencrypt.org/">Let’s Encrypt</a>, however it&rsquo;s a little too fiddly to setup, renew certifcates later. it would be to automate all process entirely, including downloading certificate, certificate renewal&hellip;.</p>
+
+<p>[Brendan] writes a nice <a href="(https://medium.com/weareservian/automagical-https-with-docker-and-go-4953fdaf83d2)">article</a> about this.</p>
+
+<p>I&rsquo;ve tried it in my project, it&rsquo;s perfect. highly recommond to read it.</p>
+
+<h3 id="links">links:</h3>
+
+<ul>
+<li><p><a href="https://godoc.org/golang.org/x/crypto/acme/autocert">acme/autocert</a></p></li>
+
+<li><p><a href="https://medium.com/weareservian/automagical-https-with-docker-and-go-4953fdaf83d2">article</a></p></li>
+
+<li><p><a href="https://github.com/bmon/go-web-base">code on github</a></p></li>
+</ul>
+</p>
+</div>
+
+
+  <p>Written on Jun 2, 2019.</p>
+
+
+<footer>
+	<p>&copy; 2019 All rights reserved.</p>
+</footer>
+</body>
+</html>

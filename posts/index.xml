@@ -6,10 +6,38 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Jan 2019 15:17:14 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2019 15:17:14 +0800</lastBuildDate>
     
         <atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Automagical HTTPS with Docker and Go</title>
+      <link>/blog/posts/automatic-https-in-go/</link>
+      <pubDate>Sun, 02 Jun 2019 15:17:14 +0800</pubDate>
+      
+      <guid>/blog/posts/automatic-https-in-go/</guid>
+      <description>
+
+&lt;p&gt;HTTPS sites is pretty common nowadays.  and you don&amp;rsquo;t want chrome to flag your site as not insecure in location bar, right?&lt;/p&gt;
+
+&lt;p&gt;So if you need to serve your go application over HTTPS. A common way of quickly achieving this goal was by utilising &lt;a href=&#34;https://letsencrypt.org/&#34;&gt;Let’s Encrypt&lt;/a&gt;, however it&amp;rsquo;s a little too fiddly to setup, renew certifcates later. it would be to automate all process entirely, including downloading certificate, certificate renewal&amp;hellip;.&lt;/p&gt;
+
+&lt;p&gt;[Brendan] writes a nice &lt;a href=&#34;(https://medium.com/weareservian/automagical-https-with-docker-and-go-4953fdaf83d2)&#34;&gt;article&lt;/a&gt; about this.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve tried it in my project, it&amp;rsquo;s perfect. highly recommond to read it.&lt;/p&gt;
+
+&lt;h3 id=&#34;links&#34;&gt;links:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://godoc.org/golang.org/x/crypto/acme/autocert&#34;&gt;acme/autocert&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/weareservian/automagical-https-with-docker-and-go-4953fdaf83d2&#34;&gt;article&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/bmon/go-web-base&#34;&gt;code on github&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Quick fill a color in Sketch from sip</title>
@@ -23,6 +51,54 @@
 
 &lt;p&gt;select a layer in sketch, hold command+shift, pick a color from sip dock, Send to Border Color to layer&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Bazel</title>
+      <link>/blog/posts/bazel/</link>
+      <pubDate>Wed, 29 Nov 2017 21:42:32 +0800</pubDate>
+      
+      <guid>/blog/posts/bazel/</guid>
+      <description>
+
+&lt;p&gt;BUILD entire project&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;bazel build //...&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;TEST entire project&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;bazel test //...&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Run Gazelle with Bazel&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;bazel run //:gazelle&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://bazel.build&#34;&gt;Official&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/bazelbuild/rules_go&#34;&gt;Go rules for bazel&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/bazelbuild/rules_docker&#34;&gt;rules for docker&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/bazelbuild/rules_k8s&#34;&gt;rules for k8s&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/bazelbuild/bazel-gazelle&#34;&gt;Bazel build file generator for Go projects&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;-&lt;a href=&#34;http://brendanjryan.com/golang/bazel/2018/05/12/building-go-applications-with-bazel.html&#34;&gt;BUILDING GO APPLICATIONS WITH BAZEL
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Containerizing Apps, not VMs</title>
+      <link>/blog/posts/containerizing-your-app-not-vms/</link>
+      <pubDate>Wed, 29 Nov 2017 21:42:32 +0800</pubDate>
+      
+      <guid>/blog/posts/containerizing-your-app-not-vms/</guid>
+      <description></description>
     </item>
     
     <item>
