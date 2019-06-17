@@ -14,8 +14,12 @@ I've tried it in my project, it's perfect. highly recommond to read it.
 
 ### links:
 
-- [acme/autocert](https://godoc.org/golang.org/x/crypto/acme/autocert)
+* [acme/autocert](https://godoc.org/golang.org/x/crypto/acme/autocert)
 
-- [article](https://medium.com/weareservian/automagical-https-with-docker-and-go-4953fdaf83d2)
+* [article](https://medium.com/weareservian/automagical-https-with-docker-and-go-4953fdaf83d2)
 
-- [code on github](https://github.com/bmon/go-web-base)
+* [code on github](https://github.com/bmon/go-web-base)
+
+* [Building Web Servers in Go · Gophish - Blog](https://getgophish.com/blog/post/2018-12-02-building-web-servers-in-go/)
+
+* [So you want to expose Go on the Internet](https://blog.cloudflare.com/exposing-go-on-the-internet/) 
